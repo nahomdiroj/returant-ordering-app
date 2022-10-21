@@ -1,0 +1,153 @@
+body {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'smythe';
+    align-items: center;
+    background-color: #EDEDED;
+}
+h1{
+    font-size: 1.2rem;
+    padding-top:2rem;
+    padding-left: 1rem;
+}
+p{
+    font-size: 1rem;
+    padding-left:1rem ;
+    
+}
+img{
+    width: 100%;
+}
+
+.lower{
+    width: 508px;
+}
+.lower p:first-of-type{
+  
+    font-size: 1.7rem;
+}
+.lower i{
+    text-align: right;
+    
+}
+
+
+
+
+
+.upper{
+    
+    width: 508px;
+    height: 167px;
+    background-size:cover; 
+    background-image: url(bgimg.png);
+    border-radius:2%; 
+    color:whitesmoke;
+    position: relative;
+}
+/* .upper:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 100%
+} */
+.upper h1{
+    font-size: 2.4rem;
+    padding: 2rem 0 0 0;
+    margin: 2rem 0rem 0rem 2rem;
+    
+    
+}
+.upper p{
+    margin-top:0;
+    font-size: 1.4rem;
+    padding: 0 0 0 2rem;
+}
+.items{
+    padding-left:0rem;
+    width: 508px;
+    height: 140px; 
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+    border-bottom: 0.2rem solid rgb(178, 169, 169);
+}
+.emoji{
+   margin: 1rem;
+   padding: 1rem;
+   width: 100px;
+   border-radius: 10%;
+}
+.icon{
+  padding: 2.7rem;
+    width: 20%;
+    margin: 2rem;
+}
+.icon:hover{
+    cursor: pointer;
+}
+.order{
+    border: 2px solid red;
+    width: 508px;
+    margin: 2rem;
+  
+    /* display:none; */
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around
+  */
+    
+}
+
+.ordp{
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aqua;
+ 
+}
+
+.subt{
+    width: 508px;
+    border-top: 0.2rem solid rgb(178, 169, 169);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.model{
+  display: none;
+  position: ;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color:#fff;
+  width: 342px;
+  height: 342px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input {
+    width: 80%;
+    background: #EDEDED;
+    border: 1px solid #C7C7C7;
+    font-size: 1rem;
+    padding: .75rem;
+    outline: none;
+    margin-bottom: 2.5em;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
